@@ -19,7 +19,7 @@ static const gpio_num_t RMT_TX_PIN = GPIO_NUM_17;  // Replaces UART TX
 // -----------------------------
 static const uint32_t LOOP_PERIOD_MS = 2000;
 static const uint32_t ULTRASONIC_TIMEOUT_US = 30000;
-static const uint32_t MANCHESTER_HALF_BIT_US = 200;
+static const uint32_t MANCHESTER_HALF_BIT_US = 10;
 static const uint32_t END_GAP_US = 2400;  // End-of-frame idle marker
 static const uint8_t PREAMBLE_BYTES = 8;
 
