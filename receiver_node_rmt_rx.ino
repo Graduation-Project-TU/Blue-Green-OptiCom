@@ -13,7 +13,7 @@ static const gpio_num_t RMT_RX_PIN = GPIO_NUM_16;  // Replaces UART RX
 // -----------------------------
 // Manchester/RMT constants
 // -----------------------------
-static const uint32_t MANCHESTER_HALF_BIT_US = 200;
+static const uint32_t MANCHESTER_HALF_BIT_US = 10;
 static const uint16_t RX_MEM_SYMBOLS = 512;
 static const uint16_t HALF_BIT_TOLERANCE_US = 80;
 static const uint8_t PREAMBLE_BYTES = 8;
