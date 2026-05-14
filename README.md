@@ -1,2 +1,8 @@
 # Blue-Green-OptiCom
-Design and implementation of an Underwater Wireless Optical Communication (UWOC) system. The project focuses on optimizing sensor node communication using the blue-green spectrum to overcome water attenuation and scattering. Features include hardware design, signal processing, and real-world demonstration of optical links.
+## 📁 Repository Structure
+```text
+├── 01-On-Air-System       # RF Communication (ESP-NOW)
+├── 02-Underwater-System   # Optical Communication (VLC)
+│   ├── 01-UART-Based      # Standard Serial Transmission
+│   └── 02-RMT-Manchester  # Advanced Line Coding
+├── 03-Hybrid-System       # Cross-medium Relay (Gateway)
