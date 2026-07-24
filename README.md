@@ -1,12 +1,25 @@
 # Blue-Green OptiCom
 
-Blue-Green OptiCom is a complete end-to-end underwater optical communication system developed from scratch. The embedded transmitter collects environmental sensor data using an ESP32 microcontroller, applies Manchester encoding and On-Off Keying (OOK) modulation, and transmits the information through a green LED optical source. A custom photodiode-based receiver, including a transimpedance amplifier (TIA) and signal conditioning circuitry, detects the optical signal, recovers and decodes the transmitted data, reconstructs the original measurements, and displays them in real time on a monitoring interface.
-
 ![Platform](https://img.shields.io/badge/Platform-ESP32-blue)
 ![Modulation](https://img.shields.io/badge/Modulation-OOK-yellow)
 ![Encoding](https://img.shields.io/badge/Encoding-Manchester-purple)
 ![Simulation](https://img.shields.io/badge/Simulation-OptiSystem%20%7C%20Proteus-success)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Blue-Green OptiCom is a complete end-to-end underwater optical communication system developed from scratch. The embedded transmitter collects environmental sensor data using an ESP32 microcontroller, applies Manchester encoding and On-Off Keying (OOK) modulation, and transmits the information through a green LED optical source. A custom photodiode-based receiver, including a transimpedance amplifier (TIA) and signal conditioning circuitry, detects the optical signal, recovers and decodes the transmitted data, reconstructs the original measurements, and displays them in real time on a monitoring interface.
+
+
+## 📡 System Overview
+
+The following block diagram illustrates the architecture and data flow of the complete underwater optical communication system.
+
+<p align="center">
+  <img src="Documentation/Images/block_diagram.png" alt="Blue-Green OptiCom Block Diagram" width="900">
+</p>
+
+<p align="center">
+  <em>Figure 1. End-to-end architecture of the Blue-Green OptiCom system.</em>
+</p>
 
 ## Features
 
